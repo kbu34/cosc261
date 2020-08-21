@@ -1,0 +1,22 @@
+z := 2;
+if z < 3 then
+ if z < 2 then
+  z := 1
+ else
+  z := 4
+ end
+else
+ if z > 9 then
+  if z > 8 then
+   if z != 0 then
+    z := 0
+   else
+    z := 1
+   end
+  else
+   z := 2
+  end
+ else
+  z := 3
+ end
+end
